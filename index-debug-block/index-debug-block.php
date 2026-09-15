@@ -3,7 +3,7 @@
 // Let the include files know that we are Cotonti
 // const COT_CODE = true; // это 
 /* 
-вставляем между строками const COT_CODE = true; и  require_once './datas/config.php';
+ *  вставляем в корневой файл сайта index.php между строками const COT_CODE = true; и require_once './datas/config.php';
  */
  
  
