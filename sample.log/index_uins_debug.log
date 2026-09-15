@@ -1,0 +1,86 @@
+
+========================================================
+DATE:       2026-09-15 01:18:46
+ERRNO:      8192
+MESSAGE:    str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+CORE FILE:  /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1923
+URL:        /ru/market/52?m=preview
+METHOD:     GET
+REFERER:    https://nameyourdomain.com/ru/market/52?m=edit
+IP:         45.130.41.2
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+--------------------------------------------------------
+DEBUG MODE: all
+ТЕГ:        {PHP.c}
+ШАБЛОН:     themes/2waydeal/modules/market/market.tpl
+ВИНОВНИК:   /root/path/goto/nameyourdomain.com/public_html/modules/market/inc/market.preview.php:247
+ПЛАГИН:     modules/market
+--------------------------------------------------------
+=== BACKTRACE ===
+#0 [internal]
+#1 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1923 → str_replace()
+#2 [internal]
+#3 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1917 → preg_replace_callback()
+#4 [internal]
+#5 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1839 → array_walk()
+#6 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1390 → Cotpl_var::evaluate()
+#7 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1507 → Cotpl_expr::evaluate()
+#8 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:909 → Cotpl_logical::text()
+#9 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:544 → Cotpl_block::parse()
+#10 /root/path/goto/nameyourdomain.com/public_html/modules/market/inc/market.preview.php:247 → XTemplate::parse()
+#11 /root/path/goto/nameyourdomain.com/public_html/modules/market/market.php:158 → require_once()
+#12 /root/path/goto/nameyourdomain.com/public_html/index.php:398 → require_once()
+=== /BACKTRACE ===
+
+--- CONTEXT ---
+COT_CODE:  defined
+env.type:  module
+env.ext:   market
+env.loc:   market
+usr.id:    2
+GET:  {"rwr":"market/52","l":"ru","m":"preview","e":"market","id":"52"}
+POST: []
+========================================================
+
+========================================================
+DATE:       2026-09-15 01:18:46
+ERRNO:      8192
+MESSAGE:    str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+CORE FILE:  /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1923
+URL:        /ru/market/52?m=preview
+METHOD:     GET
+REFERER:    https://nameyourdomain.com/ru/market/52?m=edit
+IP:         45.130.41.2
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+--------------------------------------------------------
+DEBUG MODE: all
+ТЕГ:        {PHP.c}
+ШАБЛОН:     themes/2waydeal/modules/market/market.tpl
+ВИНОВНИК:   /root/path/goto/nameyourdomain.com/public_html/modules/market/inc/market.preview.php:247
+ПЛАГИН:     modules/market
+--------------------------------------------------------
+=== BACKTRACE ===
+#0 [internal]
+#1 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1923 → str_replace()
+#2 [internal]
+#3 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1917 → preg_replace_callback()
+#4 [internal]
+#5 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1839 → array_walk()
+#6 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1037 → Cotpl_var::evaluate()
+#7 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:1510 → Cotpl_data::text()
+#8 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:909 → Cotpl_logical::text()
+#9 /root/path/goto/nameyourdomain.com/public_html/system/cotemplate.php:544 → Cotpl_block::parse()
+#10 /root/path/goto/nameyourdomain.com/public_html/modules/market/inc/market.preview.php:247 → XTemplate::parse()
+#11 /root/path/goto/nameyourdomain.com/public_html/modules/market/market.php:158 → require_once()
+#12 /root/path/goto/nameyourdomain.com/public_html/index.php:398 → require_once()
+=== /BACKTRACE ===
+
+--- CONTEXT ---
+COT_CODE:  defined
+env.type:  module
+env.ext:   market
+env.loc:   market
+usr.id:    2
+GET:  {"rwr":"market/52","l":"ru","m":"preview","e":"market","id":"52"}
+POST: []
+========================================================
