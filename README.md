@@ -17,6 +17,10 @@
 13. [FAQ](#faq)
 
 ---
+<img width="1280" height="720" alt="Universal Debugging Errors Logger for Cotonti" src="https://github.com/user-attachments/assets/b5ebafe1-df78-4f1c-ba45-41a0f10da72b" />
+
+
+---
 
 <a id="introduction"></a>
 
